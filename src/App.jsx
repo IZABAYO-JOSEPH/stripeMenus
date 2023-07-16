@@ -1,10 +1,17 @@
   import React from 'react'
-import  {useGlobalContext} from"./context"
+import Navbar from './navbar'
+import Hero from './hero'
+import Sidebar from './sidebar'
+import"./index.css"
+import Submenu from './submenu'
 const App = () => {
-  const {IsSidebarOpen} = useGlobalContext()
-  console.log(IsSidebarOpen)
   return (
-    <div>App</div>
+    <main>
+      <Navbar/>
+      <Hero />
+    <Sidebar/>
+    <Submenu/>
+    </main>
   )
 }
 
