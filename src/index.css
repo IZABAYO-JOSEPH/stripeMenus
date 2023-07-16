@@ -271,8 +271,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: stretch;
 }
 .nav-center {
+  align-self: stretch;
   width: var(--fluid-width);
   max-width: var(--max-width);
   display: flex;
